@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+.venv/
+
+# Node
+node_modules/
+.next/
+out/
+
+# OS
+.DS_Store
+
+# Logs
+*.log
+
+# Env
+backend/.env
+backend/uploads

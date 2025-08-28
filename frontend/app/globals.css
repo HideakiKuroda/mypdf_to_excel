@@ -1,0 +1,115 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+:root {
+  /* Primary: Elegant Indigo Blue */
+  --lumo-primary-color: #272f47;
+  --lumo-primary-text-color: #272f47;
+  --lumo-font-family: "Noto Sans JP";
+  /* Error: Deep Red with character */
+  --lumo-error-color: #810808;
+
+  /* Success: Calming Green */
+  --lumo-success-color: #2b8a3e;
+
+  /* Background and Base Colors */
+  --lumo-base-color: #f9fafb; /* Light neutral for background */
+  --lumo-body-text-color: #1e293b; /* Dark Slate for better readability */
+
+  --lumo-line-height-xs: 1;
+}
+.fui-FluentProvider {
+  --fontFamilyBase: "Noto Sans JP", sans-serif;
+  --fontFamilyMonospace: "Noto Sans JP", sans-serif;
+  --fontFamilyNumeric: "Noto Sans JP", sans-serif;
+  --colorNeutralForeground2BrandSelected: #272f47;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+vaadin-button {
+  cursor: pointer;
+}
+
+.pdf-upload {
+  padding: 10px 20px 0 20px;
+}
+.pdf-convert {
+  padding: 0px 20px;
+}
+.preview {
+  padding: 0 20px 0 20px;
+}
+
+.title-container {
+  display: flex;
+  align-items: baseline;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+.master-title {
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "Yuji Mai", sans-serif;
+  color: #272f47;
+  padding-bottom: 5px;
+  height: 50px;
+}
+.search-container {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.page-count {
+  margin: 0 10px;
+  user-select: none;
+}
+
+.master {
+  padding: 20px 20px 0 20px;
+}
+.master vaadin-button {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.master table {
+  border: 1px solid #272f4770;
+  border-collapse: collapse;
+  width: 100%;
+}
+.master tr td:nth-child(1),
+.master tr td:nth-child(2) {
+  min-width: 200px;
+  height: 30px;
+}
+.master tr td:nth-child(3),
+.master tr td:nth-child(4),
+.master tr td:nth-child(5) {
+  min-width: 140px;
+  height: 25px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.preview table {
+  border: 1px solid #272f4770;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
